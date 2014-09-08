@@ -1,0 +1,53 @@
+{
+	"id": "a59c45b3-3c00-cf6f-72c9-76ffefa04ccd",
+	"name": "1. Craftsman Demo",
+	"description": "Postman Demo for Craftsman Guild",
+	"order": [
+		"73d7c6d7-18c3-ae54-60bb-b47635aecb3f",
+		"2dc103d7-2239-c7ab-1e55-48e10cb65f48"
+	],
+	"folders": [],
+	"timestamp": 1410098821828,
+	"synced": false,
+	"requests": [
+		{
+			"id": "2dc103d7-2239-c7ab-1e55-48e10cb65f48",
+			"headers": "Content-Type: application/json\nAccept: application/json\nCurrentPlatform: {{CurrentPlatform}}\nAccept-Language: zh-tw\nAuthorizationToken: FxaQmnFY4HaPZkE8YpR1h7v7EeKDcOnQvGYLD8X1rr7MhTrCkY5DgRHbrE1YXnnh\n",
+			"url": "http://localhost:8888/api/v1/offer/1234",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "Get Request",
+			"description": "A demo of get request in postman",
+			"descriptionFormat": "html",
+			"time": 1410175158724,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "a59c45b3-3c00-cf6f-72c9-76ffefa04ccd",
+			"synced": false
+		},
+		{
+			"id": "73d7c6d7-18c3-ae54-60bb-b47635aecb3f",
+			"headers": "Content-Type: application/json\nAccept: application/json\nAuthorizationToken: FxaQmnFY4HaPZkE8YpR1h7v7EeKDcOnQvGYLD8X1rr7MhTrCkY5DgRHbrE1YXnnh\n",
+			"url": "http://localhost:8888/api/v1/offer/1234",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Purchase Request",
+			"description": "A demo of post request in postman",
+			"descriptionFormat": "html",
+			"time": 1410175137435,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "a59c45b3-3c00-cf6f-72c9-76ffefa04ccd",
+			"synced": false,
+			"rawModeData": "{      \"creditCard\": {\n        \"userName\": \"John Doe\",\n        \"type\": \"VISA\",\n        \"number\": \"123456789012346\",\n        \"expiryDate\": \"2015-03\"\n      }\n}"
+		}
+	]
+}

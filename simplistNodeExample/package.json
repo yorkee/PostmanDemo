@@ -1,0 +1,12 @@
+{
+  "name": "fake-papi",
+  "version": "0.0.0",
+  "dependencies": {
+    "mongoose": "~3.8.0",
+    "requirejs": "~2.1.9",
+    "express": "~3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

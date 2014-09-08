@@ -1,0 +1,199 @@
+{
+    "vehicles": {
+        "size": 16,
+        "vehicle": [
+            {
+                "vin": "5GZCZ33Z47S000016",
+                "make": "Saturn",
+                "model": "Vue",
+                "year": 2007,
+                "manufacturer": "GM",
+                "phone": 5002022424,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984739,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/5GZCZ33Z47S000016",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984739"
+            },
+			{
+		        "vin": "5GZCZ33Z47S000017",
+		        "make": "Saturn",
+		        "model": "Vue",
+		        "year": 2005,
+		        "manufacturer": "GM",
+		        "phone": 5002022425,
+		        "unitType": "EMBEDDED",
+		        "primaryDriverId": 450984739,
+		        "url": "https://developer.gm.com/api/v1/account/vehicles/5GZCZ33Z47S000017",
+		        "primaryDriverURL": "https://developer.gm.com/api/v1/account/subscribers/450984739"
+			},
+            {
+                "vin": "1G6DA67VX80000014",
+                "make": "Cadillac",
+                "model": "STS AWD",
+                "year": 2008,
+                "manufacturer": "GM",
+                "phone": 7039277239,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984752,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G6DA67VX80000014",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984752"
+            },
+            {
+                "vin": "1GNFC26069R000015",
+                "make": "Cadillac",
+                "model": "Suburban (4X2) 4 door",
+                "year": 2009,
+                "manufacturer": "GM",
+                "phone": 2815079899,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984738,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1GNFC26069R000015",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984738"
+            },
+            {
+                "vin": "1GKUKEEF9AR000010",
+                "make": "GMC",
+                "model": "Denali",
+                "year": 2010,
+                "manufacturer": "General Motors",
+                "phone": 3132200010,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 548392002,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1GKUKEEF9AR000010",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/548392002"
+            },
+            {
+                "vin": "1G1PJ5S95B7000009",
+                "make": "Chevrolet",
+                "model": "Cruze",
+                "year": 2011,
+                "manufacturer": "General Motors",
+                "phone": 8035553074,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 548392002,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1PJ5S95B7000009",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/548392002"
+            },
+            {
+                "vin": "2CNALPEC3B6000001",
+                "make": "Chevrolet",
+                "model": "Equinox",
+                "year": 2011,
+                "manufacturer": "General Motors",
+                "phone": 3135450001,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984732,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/2CNALPEC3B6000001",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984732"
+            },
+            {
+                "vin": "1GCRCSE09BZ000005",
+                "make": "Chevrolet",
+                "model": "Silverado Crew Cab",
+                "year": 2011,
+                "manufacturer": "General Motors",
+                "phone": 8035553074,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984732,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1GCRCSE09BZ000005",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984732"
+            },
+            {
+                "vin": "1G1RD6E47BU000008",
+                "make": "Chevrolet",
+                "model": "Volt",
+                "year": 2011,
+                "manufacturer": "General Motors",
+                "phone": 3139030008,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 548392002,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1RD6E47BU000008",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/548392002"
+            },
+            {
+                "vin": "1G6DH5E53C0000003",
+                "make": "Cadillac",
+                "model": "CTS Coupe",
+                "year": 2012,
+                "manufacturer": "General Motors",
+                "phone": 3136440003,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450438292,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G6DH5E53C0000003",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450438292"
+            },
+            {
+                "vin": "1G1RD6E44CU000002",
+                "make": "Chevrolet",
+                "model": "Volt",
+                "year": 2012,
+                "manufacturer": "General Motors",
+                "phone": 3132550002,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984732,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1RD6E44CU000002",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984732"
+            },
+            {
+                "vin": "1G1RD6E44CU000012",
+                "make": "Chevrolet",
+                "model": "Volt",
+                "year": 2012,
+                "manufacturer": "General Motors",
+                "phone": 8035553074,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450438292,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1RD6E44CU000012",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450438292"
+            },
+            {
+                "vin": "1G1PJ5SC9C7000004",
+                "make": "Chevrolet",
+                "model": "Cruze",
+                "year": 2012,
+                "manufacturer": "General Motors",
+                "phone": 3135470004,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984732,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1PJ5SC9C7000004",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984732"
+            },
+            {
+                "vin": "1G1ZE5E03CF000006",
+                "make": "Chevrolet",
+                "model": "Malibu",
+                "year": 2012,
+                "manufacturer": "General Motors",
+                "phone": 3135480006,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984732,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1ZE5E03CF000006",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984732"
+            },
+            {
+                "vin": "1G1JE6SH2C4000007",
+                "make": "Chevrolet",
+                "model": "Sonic",
+                "year": 2012,
+                "manufacturer": "General Motors",
+                "phone": 3136140007,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 548392002,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G1JE6SH2C4000007",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/548392002"
+            },
+            {
+                "vin": "1G11F5RRXDF000011",
+                "make": "Chevrolet",
+                "model": "Malibu Eco",
+                "year": 2013,
+                "manufacturer": "General Motors",
+                "phone": 8035553074,
+                "unitType": "EMBEDDED",
+                "primaryDriverId": 450984732,
+                "url": "https://developer.gm.com/api/v1/account/vehicles/1G11F5RRXDF000011",
+                "primaryDriverUrl": "https://developer.gm.com/api/v1/account/subscribers/450984732"
+            }
+        ]
+    }
+}
