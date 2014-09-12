@@ -1,6 +1,7 @@
 #Getting Started
-* [Getting Started](#, "Installation and getting started")
-* [Sample API](api.md, "Sample API document")  
+* [Getting Started](# "Installation and getting started")
+* [Sample API](API.md "Sample API document")  
+##Setup and Get Started
 Install NodeJS:
 Download [NodeJS](http://nodejs.org/download)  
 Open installer and follow instructions  
