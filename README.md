@@ -1,5 +1,5 @@
 #Getting Started
-* [Getting Started](#Setting-Up-and-Getting-Started "Setting up and getting started")
+* [Getting Started](#setting-up-and-getting-started "Setting up and getting started")
 * [Sample API](API.md "Sample API document")
 
 ##Setting Up and Getting Started
