@@ -7,7 +7,7 @@
 * Open installer and follow instructions  
 * Install MongoDB:  
 `brew install mongodb`  
-* Clone the demo repo:
+* Clone the demo repo:  
 `git clone git@github.com:yorkee/PostmanDemo.git`  
 `cd PostmanDemo/simplestNodeExample/`  
 * Install dependencies such as Express and Mongoose:  
