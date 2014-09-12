@@ -5,6 +5,7 @@
 ##Dependencies
 * NodeJS
 * MongoDB
+
 ##Setting Up and Getting Started
 * Download and install [NodeJS](http://nodejs.org/download)  
 * Open installer and follow instructions  
