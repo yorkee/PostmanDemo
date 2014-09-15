@@ -3,7 +3,7 @@ define(['mongoose'], function(mongoose) {
 	var sessionSchema = mongoose.Schema({
 		name: String,
 		body: mongoose.Schema.Types.Mixed
-	})
+	});
 
 	var Session = mongoose.model('session', sessionSchema);
 
@@ -14,7 +14,7 @@ define(['mongoose'], function(mongoose) {
 				body: "empty"
 			}
 		};
-	}
+	};
 
 	var SessionRepository = (function() {
 		mongoose.connect('mongodb://localhost/fakedb');
@@ -30,7 +30,7 @@ define(['mongoose'], function(mongoose) {
 			Session.find({
 				name: sessionId
 			}, function(err, sessions) {
-				if (err || sessions.length == 0) {
+				if (err || sessions.length === 0) {
 					var session = new Session(new DefaultBody(sessionId));
 					session.save();
 					callback(session);

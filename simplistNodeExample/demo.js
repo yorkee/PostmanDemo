@@ -4,8 +4,8 @@ requirejs.config({
     nodeRequire: require
 });
 
-requirejs(['express'],
-    function(express) {
+requirejs(['express', 'session_repo'],
+    function(express, session) {
 
         var app = express();
 
