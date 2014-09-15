@@ -1,6 +1,9 @@
 {
-  "name": "fake-papi",
+  "name": "dapi",
   "version": "0.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/newman -c ../CraftsmanDemo.json.postman_collection -o test.newman.json"
+  },
   "dependencies": {
     "mongoose": "~3.8.0",
     "requirejs": "~2.1.9",
@@ -8,5 +11,8 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "newman": "^1.1.1"
   }
 }
