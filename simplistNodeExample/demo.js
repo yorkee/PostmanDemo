@@ -24,21 +24,56 @@ requirejs(['express'],
             }
         };
 
+        var offersSuccessfulResponse = {
+            "offers" : [ {
+                "id" : "1234",
+                "name" : "Good Offer"
+            },
+            {
+                "id" : "1235",
+                "name" : "Better Offer"
+            },
+            {
+                "id" : "1236",
+                "name" : "The Awesome Offer"
+            }]
+        };
+
         var purchaseOfferSuccessfulResponse = {
            "status": "sucess",
             "type": "purchaseOffer"
         };
 
-        var failResponse = {
+        var failResponse500 = {
             "ERROR500": "Unable to process your request, please try again."
         };
 
+        var failResponse401 = {
+            "ERROR401": "Unable to process your request, please try again."
+        };
+
+
+        var getOffers = function(request, response){
+            if (!request.headers['authorization'] ){
+                response.send(401, failResponse401);
+            } else {
+                response.json(offersSuccessfulResponse);
+            }
+        };
+
+
         var getOffer = function(request, response){
-            if (request.params.OFFER_ID == "1234"){
+            console.log("what the fuck is request.headers??? ", request.headers);
+            if (!request.headers['authorization'] ){
+                response.send(401, failResponse401);
+            } else if (request.params.OFFER_ID == "1234" ||
+                request.params.OFFER_ID == "1235" ||
+                request.params.OFFER_ID == "1236"){
+                getOfferSuccessfulResponse.id = request.params.OFFER_ID;
                 response.json(getOfferSuccessfulResponse);
                 return;
             } else {
-                response.send(500, failResponse);
+                response.send(500, failResponse500);
             }
         };
 
@@ -49,14 +84,17 @@ requirejs(['express'],
                 response.json(purchaseOfferSuccessfulResponse);
                 return;
             } else {
-                response.send(500, failResponse);
+                response.send(500, failResponse500);
             }
         };
 
 
         app.get('/api/v1/offer/:OFFER_ID', getOffer);
 
+        app.get('/api/v1/offers', getOffers);
         app.post('/api/v1/offer/:OFFER_ID', purchaseOffer);
+
+
 
         app.listen(8888);
 

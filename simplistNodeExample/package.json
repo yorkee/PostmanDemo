@@ -1,5 +1,5 @@
 {
-  "name": "fake-papi",
+  "name": "dapi",
   "version": "0.0.0",
   "dependencies": {
     "mongoose": "~3.8.0",
